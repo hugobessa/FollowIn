@@ -1,0 +1,220 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; }
+:focus { outline:0; }
+a:active { outline:none; }
+body { line-height:1; color:black; background:white; }
+ol,ul { list-style:none; }
+table { border-collapse:separate; border-spacing:0; }
+caption,th,td { text-align:left; font-weight:normal; }
+blockquote:before,blockquote:after,q:before,q:after { content:""; }
+blockquote,q { quotes:"" "";
+}
+
+@font-face {
+	font-family: Opificio;
+	src:url("../Opificio.ttf");
+	src:url("../Opificio_Bold.ttf");
+}
+
+body{
+	font-family: Opificio;
+	background-color:#373737;
+}
+
+#background{
+	background-repeat:repeat-x;
+	height: 640px;
+}
+
+/*---------------------------------------------------------Commom------------------------------------------------------------------------------------*/
+
+#barraSuperior{
+	height:43px;
+	width:100%;
+	background-image:url('../img/headerbg.png');
+}
+
+#barraSuperiorContent{
+	position:absolute;
+	height:43px;
+	width:1000px;
+	left:50%;
+	margin-left:-500px;
+}
+
+#logoSuperiorBar{
+	float:left;
+	width:109px;
+	height:33px;
+	margin-top:5px;
+	margin-left:9px;
+}
+#logoDivSuperiorBar{
+	float:left;
+	width:134px;
+	height:43px;
+}
+
+#menuSuperiorBar{
+	float:left;
+	height:43px;
+	width:340px;
+	margin-left:10px;
+}
+
+#menuVerticalBar{
+	width:2px;
+	height:24px;
+	background-image:url('../img/superiorMenuVerticalBar.png');
+	float:left;
+	margin-left:15px;
+	margin-top:10px;
+}
+
+#senhaFieldSuperiorBar{
+	float:left;
+	margin-left: 10px;
+	margin-top:10px;
+	background-color:white;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /* Para Chrome*/
+	border-radius: 10px;
+	border:none;
+	width:218px;
+	height:22px;
+}
+
+#searchBar{
+	width:180px;
+	margin-left:5px;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /* Para Chrome*/
+	border-radius: 10px;
+	border:none;
+	height:15px;
+	margin-top:3px;
+	color:#393939
+}
+
+#searchSubmit{
+	background-image:url('../img/searchIcon.png');
+	width:20px;
+	border:none;	
+}
+
+#loginAreaSuperiorBar{
+	float:right;
+	height:43px;
+	width:160px;
+}
+
+/*--------------------------------------------------------/Commom------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------Index-----------------------------------------------------------------------------------------*/
+
+#top{
+	background-image:url('../img/headerbg.png');
+	height: 160px;
+	width: 100%;
+}
+
+#header{
+	height: 160px;
+	width: 1000px;
+	font-size:18px;
+	color:#BFBFBF;
+	font-weight:bold;
+	margin:0 auto;
+}
+
+#logo{
+	width:647px;
+	height:160px;
+	float:left;
+}
+
+#logoimg{
+	margin-left:14px;
+	margin-top:19px;
+}
+
+#loginarea{
+	width:353px;
+	height:160px;
+	float:left;
+}
+
+#emailline{
+	margin-top:29px;
+	width:353px;
+	height:24px;
+}
+
+#emaillabeldiv{
+	float:left;
+}
+
+#emailfielddiv{
+	float:left;
+	margin-left: 10px;
+	background-color:white;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /* Para Chrome*/
+	border-radius: 10px;
+	border:none;
+	width:218px;
+	height:22px;
+}
+
+#emailfield{
+	margin-top:-1px;
+}
+#senhaline{
+	margin-top:16px;
+	width:353px;
+	height:24px;
+}
+
+
+#senhalabeldiv{
+	float:left;
+}
+
+#senhafielddiv{
+	float:left;
+	margin-left: 10px;
+	background-color:white;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /* Para Chrome*/
+	border-radius: 10px;
+	border:none;
+	width:218px;
+	height:22px;
+}
+
+#loginline{
+	margin-top:20px;
+	width:353px;
+	height:24px;
+}
+
+#loginbtn{
+	font-family: Opificio;
+	font-weight:bold;
+	font-size:18px;
+	color:#4C4C4C;
+	background-image:url('../img/loginbtn.png');
+	background-position:-2px 0px;
+	border:none;
+	border-radius: 11px;
+	width:93px;
+	height:24px;
+	margin-left:20px;
+}
+#loginbtn:hover{
+	background-image:none;
+	cursor:pointer;
+}
+
+/*-------------------------------------------------------------------------/Index--------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------Atualizações-----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------/Atualizações-----------------------------------------------------------------------*/

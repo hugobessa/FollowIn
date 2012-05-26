@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<title>Followin</title>
+	<link rel="stylesheet" href="{{ MEDIA_URL }}css/style.css" />
+	
+	<link id="favicon" href="/img/favicon.png" rel="icon" type="image/x-icon"/>
+	
+</head>
+<body>
+<div id="background">
+		<div id="top">
+			<div id="header">
+				<div id="logo">
+					<img src="{{ MEDIA_URL }}img/logo.png" alt="Followin" id="logoimg"></img>
+				</div>
+				
+				<div id="loginarea">
+					<form id="loginform" action="">
+						<div id="emailline">
+							<div id="emaillabeldiv">
+								<label for="emailfield">E-mail:</label>
+							</div>
+							<div id="emailfielddiv">
+								<input type="text" id="emailfield" class="inputs"></input>
+							</div>
+						</div>
+						
+						<div id="senhaline">
+							<div id="senhalabeldiv">
+								<label for="senhafield">Senha:</label>
+							</div>
+							<div id="senhafielddiv">
+								<input type="password" id="senhafield" class="inputs"></input>
+							</div>
+						</div>
+						
+						<div id="loginline">
+							<input id="checkbox" type="checkbox" name="rememberme" value="yes"> Lembre de mim </input>
+							<input type="submit" id="loginbtn" value="Login"></input>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div id="center">
+		
+			<div id="corpo">
+				<div id="leftside">
+				
+					<form id="loginform" method="POST" action="/cadastro/"> {% csrf_token %}
+						<div id="nomeline" class="lines">
+							<div id="nomelinelabel">
+								<label for="nomefield">Nome:</label> 
+							</div>
+							<div id="nomelineinput"> 
+								<input type="text" id="nomefield" class="inputscadastro" name="nome"></input>
+							</div>
+						</div>
+						
+						<div id="sobrenomeline" class="lines">
+							<div id="sobrenomelinelabel">
+								<label for="senhafield">Sobrenome:</label>
+							</div>
+							<div id="sobrenomelineinput">
+								<input type="text" id="senhafield" class="inputscadastro" name="sobrenome"></input>
+							</div>
+						</div>
+						
+						<div id="email2line" class="lines">
+							<div id="email2linelabel">
+								<label for="email2field">E-mail:</label>
+							</div>
+							<div id="email2lineinput">
+								<input type="text" id="email2field" class="inputscadastro" nome="email"></input>
+							</div>
+						</div>
+						
+						<div id="senha2line" class="lines">
+							<div id="senha2linelabel">
+								<label for="senha2field" >Senha:</label>
+							</div>
+							<div id="senha2lineinput">
+								<input type="password" id="senha2field" class="inputscadastro" nome="senha"></input>
+							</div>
+						</div>
+						
+						<div id="confirmarsenhaline" class="lines">
+							<div id="confirmarsenhalinelabel">
+								<label for="confirmarsenhafield">Confirmar Senha:</label>
+							</div>
+							<div id="csenhalineinput">
+								<input type="password" id="confirmarsenhafield" class="inputscadastro" name="confsenha"></input>
+							</div>
+						</div>
+						
+						<div id="signupline">
+							<input id="checkbox" type="checkbox" name="readandaccept" value="yes"> Eu li e aceito os <a id ="link" href="termosdeuso.docx"> Termos de Uso</a> </input>
+						</div>
+						
+						<div id="signupbtnline">
+							<input type="submit" id="signupbtn" value="Sign Up"></input>
+						</div>
+					</form>
+					
+				</div>
+				
+				<div id="rightside">
+					<iframe id="video" src="http://player.vimeo.com/video/36874836?title=0&amp;byline=0&amp;portrait=0"
+						width="519" height="287"
+						frameborder="0"
+						webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+					</iframe>
+		
+				</div>
+			</div>
+		
+		</div>
+
+	
+	<div id="beneficios">
+		<div id="imgbeneficios">
+			<img  src="{{ MEDIA_URL }}img/footer.png" alt="Followin" id="footerimg"></img>
+		</div>
+	</div>
+	
+	<div id="quemusa">
+	
+	</div>
+		
+
+</div>
+</body>
+

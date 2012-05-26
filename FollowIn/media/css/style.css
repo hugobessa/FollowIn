@@ -1,0 +1,376 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; }
+:focus { outline:0; }
+a:active { outline:none; }
+body { line-height:1; color:black; background:white; }
+ol,ul { list-style:none; }
+table { border-collapse:separate; border-spacing:0; }
+caption,th,td { text-align:left; font-weight:normal; }
+blockquote:before,blockquote:after,q:before,q:after { content:""; }
+blockquote,q { quotes:"" "";
+}
+
+@font-face {
+	font-family: Opificio;
+	src:url("../Opificio.ttf");
+	src:url("../Opificio_Bold.ttf");
+}
+
+body{
+	font-family: Opificio;
+	background-color:#373737;
+}
+
+#background{
+	background-repeat:repeat-x;
+	height: 640px;
+}
+/*--------------------------------------------------------Header-----------------------------------------------------------------------------------------*/
+
+#top{
+	background-image:url('../img/headerbg.png');
+	height: 160px;
+	width: 100%;
+}
+
+#header{
+	height: 160px;
+	width: 1000px;
+	background-image:url('../img/headerbg.png');
+	font-size:18px;
+	color:#BFBFBF;
+	font-weight:bold;
+	margin:0 auto;
+}
+
+#logo{
+	width:647px;
+	height:160px;
+	float:left;
+}
+
+#logoimg{
+	margin-left:14px;
+	margin-top:19px;
+}
+
+#loginarea{
+	width:353px;
+	height:160px;
+	float:left;
+}
+
+#emailline{
+	margin-top:29px;
+	width:353px;
+	height:24px;
+}
+
+#emaillabeldiv{
+	float:left;
+}
+
+#emailfielddiv{
+	float:left;
+	margin-left: 10px;
+	background-color:white;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /* Para Chrome*/
+	border-radius: 10px;
+	border:none;
+	width:218px;
+	height:22px;
+}
+
+#emailfield{
+	margin-top:-1px;
+}
+#senhaline{
+	margin-top:16px;
+	width:353px;
+	height:24px;
+}
+
+
+#senhalabeldiv{
+	float:left;
+}
+
+#senhafielddiv{
+	float:left;
+	margin-left: 10px;
+	background-color:white;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /* Para Chrome*/
+	border-radius: 10px;
+	border:none;
+	width:218px;
+	height:22px;
+}
+
+#loginline{
+	margin-top:20px;
+	width:353px;
+	height:24px;
+}
+
+#loginbtn{
+	font-family: Opificio;
+	font-weight:bold;
+	font-size:18px;
+	color:#4C4C4C;
+	background-image:url('../img/loginbtn.png');
+	background-position:-2px 0px;
+	border:none;
+	border-radius: 11px;
+	width:93px;
+	height:24px;
+	margin-left:20px;
+}
+#loginbtn:hover{
+	background-image:none;
+	cursor:pointer;
+}
+
+/*--------------------------------------------------------/Header-----------------------------------------------------------------------------------------*/
+
+#center{
+	height:343px;
+	width:100%;
+	background-color:white;	
+}
+
+#corpo{
+	width:1000px;
+	height:343px;
+	margin:0 auto;
+
+}
+
+
+#leftside{
+	width:418px;
+	height:343px;
+	background-color:white;
+	float:left;
+}
+
+#loginform{
+	font-size:18px;
+}
+
+#nomeline{
+	margin-top:45px;
+	width:418px;
+	height:24px;
+}
+
+#nomelinelabel{
+	float:left;
+	margin-left:50px;
+}
+
+#nomelineinput{
+	float:left;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /* Para Chrome*/
+	border-radius: 10px;
+	background-image:url('../img/inputbar.png');
+	background-repeat:no-repeat;
+	border:none;
+	width:218px;
+	height:22px;
+	float:right;
+	margin-right:30px;
+}
+
+#sobrenomeline{
+	width:418px;
+	height:24px;
+}
+
+#sobrenomelinelabel{
+	float:left;
+	margin-left:30px;
+}
+
+#sobrenomelineinput{
+	float:left;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /* Para Chrome*/
+	border-radius: 10px;
+	background-image:url('../img/inputbar.png');
+	background-repeat:no-repeat;
+	border:none;
+	width:218px;
+	height:22px;
+	float:right;
+	margin-right:30px;
+}
+
+#email2line{
+	width:418px;
+	height:24px;
+}
+
+
+#email2linelabel{
+	float:left;
+	margin-left:50px;
+}
+
+#email2lineinput{
+	float:left;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /* Para Chrome*/
+	border-radius: 10px;
+	background-image:url('../img/inputbar.png');
+	background-repeat:no-repeat;
+	border:none;
+	width:218px;
+	height:22px;
+	float:right;
+	margin-right:30px;
+}
+
+#senha2line{
+	width:418px;
+	height:24px;
+}
+
+#senha2linelabel{
+	float:left;
+	margin-left:50px;
+}
+
+#senha2lineinput{
+	float:left;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /* Para Chrome*/
+	border-radius: 10px;
+	background-image:url('../img/inputbar.png');
+	background-repeat:no-repeat;
+	border:none;
+	width:218px;
+	height:22px;
+	float:right;
+	margin-right:30px;
+}
+
+#confirmarsenhaline{
+	width:418px;
+	height:24px;
+}
+
+#confirmarsenhalinelabel{
+	float:left;
+}
+
+#csenhalineinput{
+	float:left;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /* Para Chrome*/
+	border-radius: 10px;
+	background-image:url('../img/inputbar.png');
+	background-repeat:no-repeat;
+	border:none;
+	width:218px;
+	height:22px;
+	float:right;
+	margin-right:30px;
+}
+
+#signupline{
+	font-size:14px;
+	margin-top:15px;
+}
+
+
+
+#signupbtnline{
+	float:right;
+}
+
+#signupbtn{
+	font-family: Opificio;
+	font-weight:bold;
+	font-size:18px;
+	color:#4C4C4C;
+	background-image:url('../img/loginbtn.png');
+	background-position:-2px 0px;
+	border:none;
+	border-radius: 11px;
+	width:93px;
+	height:24px;
+	margin-right: 30px;
+}
+#signupbtn:hover{
+	background-image:none;
+	cursor:pointer;
+}
+
+#link{
+	color:black;
+}
+
+#rightside{
+	width:582px;
+	height:343px;
+	background-image:url('../img/rightbg.png');
+	float:left;
+}
+
+#video{
+	margin-left:32px;
+	margin-top:25px;
+}
+
+#beneficios{
+	
+	width:100%;
+	height:97px;
+	background-color:#999999;
+}
+
+#quemusa{
+	width:1000px;
+	height:40px;
+	background-image:url('../img/footerbg.png');
+	width:100%;
+}
+#imgbeneficios{
+	width:1000px;
+	height:96px;
+	margin:0 auto;
+}
+
+
+/*-------------------------------------------------------------------Classes-------------------------------------------------------------------------------------*/
+
+.inputs{
+	width:205px;
+	margin-left:5px;
+	-moz-border-radius: 10px; /* Para Firefox */
+	-webkit-border-radius: 10px; /* Para Chrome*/
+	border-radius: 10px;
+	border:none;
+	height:15px;
+	margin-top:3px;
+	color:#393939
+}
+
+.inputscadastro{
+	-moz-border-radius: 15px; /* Para Firefox */
+	-webkit-border-radius: 15px; /* Para Chrome*/
+	border-radius: 15px;
+	width:200px;
+	height:14px;
+	margin-left:7px;
+	border:none;
+	color:#393939
+}
+
+.lines{
+	margin-top:15px;
+	width:418px;
+}
+
