@@ -9,7 +9,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'FollowIn.views.login'),
-    url(r'^$/cadastro', 'usuario.views.cadastro'),
+    url(r'^cadastro/$', 'usuario.views.cadastro'),
     url(r'^usuario/', include('usuario.urls')),
     url(r'^media/(.*)$', 'django.views.static.serve',
      {'document_root': settings.MEDIA_ROOT}),
